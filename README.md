@@ -7,4 +7,5 @@ https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 ## Possible Questions:
 
 Are there different risk factors per age group, which would indicate different prevention strategies?
+
 BMI, Age, Rural/Urban, see if there's different risk factors/prevention for different groups
