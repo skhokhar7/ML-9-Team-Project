@@ -19,7 +19,7 @@ This project addresses that gap by:
 
 ## Dataset Description
 
-We are using the publicly available  **Stroke Prediction Dataset** , which includes 11 features and a binary target variable (`stroke`). The dataset contains 5000+ records with the following attributes:
+We are using the publicly available  **Stroke Prediction Dataset** , which includes 11 features and a binary target variable (`stroke`). The dataset contains 5110 records with the following attributes:
 
 * **Demographics** : `gender`, `age`, `ever_married`, `Residence_type`
 * **Health indicators** : `hypertension`, `heart_disease`, `avg_glucose_level`, `bmi`, `smoking_status`
