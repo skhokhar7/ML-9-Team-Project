@@ -111,7 +111,7 @@ Regression to find composition and correlation of different variables
 Based on significance of variables, create a model to predict stroke or not
 
 ## Possible Problem:
-The occurance of stroke overwhelms the lack of stroke by an order of magnitude.
+The occurance of false stroke overwhelms the stroke occurence in this dataset by an order of magnitude.
 
 [1] Vyas, M., Fang, J., de Oliveria, C., et al. Attributable Costs of Stroke in Ontario, Canada and Their Variation by Stroke Type and Social Determinants of Health. Stroke 2023, 54, 2824.
 [2] Vu, T., Kokubo, Y., Inoue, M., et al. Machine Learning Approaches for Stroke Risk Prediction: Findings from the Suita Study. J Cardiovasc Dev Dis 2024, 11, 207. https://doi.org/10.3390/jcdd11070207
