@@ -1,3 +1,9 @@
+---
+title: "ML-9 Team Project - Stroke Prediction Using Machine Learning"
+author: "<Our Names>"
+bibliography: references.bib
+---
+
 # ML-9 Team Project
 
 Stroke prediction dataset is selected (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
