@@ -36,6 +36,16 @@ We will explore multiple modeling approaches to capture both linear and non-line
 
 * Logistic Regression for interpretability
 * Random Forest for feature importance and robustness
+  * Ensemble of Decision Trees trained on random subsets of data and features
+    * Each tree votes on the final prediction, improving stability and accuracy
+    * Handles both numerical and categorical data without extensive preprocessing
+  * Advantages
+    * Captures complex, non-linear relationships
+    * Resistant to overfitting through averaging
+    * Provides interpretable feature importance for identifying key stroke predictors
+  * Implementation
+    * Use scikit-learn’s RandomForestClassifier
+    * Tune parameters such as n_estimators, max_depth, and min_samples_split using grid search and cross-validation
 
 ### 2. Neural Networks
 
@@ -53,7 +63,7 @@ We will explore multiple modeling approaches to capture both linear and non-line
 
 ## Risks and Unknowns
 
-* **Class Imbalance** : Stroke cases are rare, which may bias models toward the majority class. We plan to use techniques like SMOTE or class weighting to mitigate this.
+* **Class Imbalance** : Stroke negative cases are rare in this dataset, which may bias models toward the majority class. We plan to use techniques like SMOTE or class weighting to mitigate this.
 * **Missing Data** : BMI values contain `N/A` entries. We will impute missing values using median or regression-based methods.
 * **Data Quality** : Some entries have implausible values (e.g., age < 1). These will be filtered or corrected during preprocessing.
 * **Generalizability** : The dataset may not represent all populations. External validation with broader datasets is recommended before deployment.
