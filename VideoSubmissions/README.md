@@ -24,3 +24,5 @@ In addition, here is the guide for the Project Showcase video/presentation:
     * If you had more time, what would your team have explored next?
 
 It would probably be a good idea to script out what we want to say ahead of time to make sure we can fit everything in the 5 minute time limit, and to rehearse a few times to make sure we can deliver it smoothly.
+
+https://github.com/UofT-DSI/team_project?tab=readme-ov-file#submitting-your-project
