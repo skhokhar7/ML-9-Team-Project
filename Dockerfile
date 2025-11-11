@@ -52,4 +52,4 @@ ENV CUDA_VISIBLE_DEVICES=""
 USER appuser
 
 # Default: launch Jupyter Lab from the conda environment (updated flags for ServerApp)
-CMD ["sh", "-c", "/opt/conda/envs/ml9/bin/jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --ServerApp.token='${JUPYTER_TOKEN}' --ServerApp.allow_origin='*' --ServerApp.allow_remote_access=True"]
+CMD ["sh", "-c", "/opt/conda/envs/ml9/bin/jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --ServerApp.token=${JUPYTER_TOKEN} --ServerApp.allow_origin='*' --ServerApp.allow_remote_access=True"]
