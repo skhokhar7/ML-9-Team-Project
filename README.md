@@ -10,7 +10,7 @@ Stroke prediction dataset is selected (https://www.kaggle.com/datasets/fedesoria
 
 # Purpose & Overview
 
-Stroke, a leading cause of death and disability worldwide, places a significant burden on healthcare systems. In fact, yearly stroke-realted health care costs in Ontario, Canada were estimated to be up to $40,000 as of 2018 [1] which has likely only increased since then. Early prediction and intervention are therefore crucial to reducing mortality, improving patient outcome and reducing the costs on the health care system. Maching learning approaches offer promising tools for enhancing stroke prediction by analyzing vast datasets to identify patterns and risk factors that traditional methods may overlook.
+Stroke, a leading cause of death and disability worldwide, places a significant burden on healthcare systems. In fact, yearly stroke-related health care costs in Ontario, Canada were estimated to be up to $40,000 as of 2018 [1] which has likely only increased since then. Early prediction and intervention are therefore crucial to reducing mortality, improving patient outcome and reducing the costs on the health care system. Maching learning approaches offer promising tools for enhancing stroke prediction by analyzing vast datasets to identify patterns and risk factors that traditional methods may overlook.
 
 This project aims to develop a predictive model for stroke risk using demographic, health, and lifestyle data. By analyzing patterns in patient profiles, we seek to identify key indicators that contribute to stroke incidence and build a tool that can assist healthcare providers in early intervention and resource prioritization.
 
@@ -110,14 +110,29 @@ Are there different risk factors per age group, which would indicate different p
 
 BMI, Age, Rural/Urban, see if there's different risk factors/prevention for different groups
 
+_Research question: can deep learning be used with this dataset to identify which risk factors are most pertinent to predict a stroke depending on demographic?_
+
+Do we need to subdivide the dataset along demographics (age, lifestyle, etc.)
+
 
 ## Approaches:
 Regression to find composition and correlation of different variables
 
 Based on significance of variables, create a model to predict stroke or not
 
+_We have determined that we need to develop an experiment to determine the number of layers that will be optimal to get a result from our project._
+
+Dask will be useful to run the experiments in parallel on multiple cores. We can use Google Colab to access GPUs for training our models.
+
+
+Adding this comment from outside account
+====
+To try and find solution to a GitHub issue, we created a test account to make a remote branch and create a pull request. We also developed a step-by-step walkthrough of using GitHub in organizations.
+
+
+
 ## Possible Problem:
-The occurance of stroke overwhelms the lack of stroke by an order of magnitude.
+The occurance of false stroke overwhelms the stroke occurence in this dataset by an order of magnitude.
 
 [1] Vyas, M., Fang, J., de Oliveria, C., et al. Attributable Costs of Stroke in Ontario, Canada and Their Variation by Stroke Type and Social Determinants of Health. Stroke 2023, 54, 2824.
 [2] Vu, T., Kokubo, Y., Inoue, M., et al. Machine Learning Approaches for Stroke Risk Prediction: Findings from the Suita Study. J Cardiovasc Dev Dis 2024, 11, 207. https://doi.org/10.3390/jcdd11070207
