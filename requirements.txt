@@ -73,6 +73,7 @@ huggingface-hub==1.0.1
 hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1737618333194/work
 idna==3.11
 imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1738273805233/work
+imbalanced-learn==0.12.4
 importlib-metadata==8.7.0
 ipykernel==7.1.0
 ipython==8.37.0
@@ -123,6 +124,7 @@ jupyterlab-widgets @ file:///home/conda/feedstock_root/build_artifacts/jupyterla
 kaggle==1.7.4.5
 keras @ file:///home/conda/feedstock_root/build_artifacts/keras_1700038168849/work/keras-2.15.0-py3-none-any.whl
 keras-preprocessing @ file:///home/conda/feedstock_root/build_artifacts/keras-preprocessing_1736115346640/work
+keras-tuner==1.4.7
 kiwisolver @ file:///Users/runner/miniforge3/conda-bld/bld/rattler-build_kiwisolver_1756467593/work
 langchain==1.0.3
 langchain-community @ file:///home/conda/feedstock_root/build_artifacts/langchain-community_1747066704338/work

@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  ml9-app:
+    build: .
+    image: ml9-team-project:latest
+    container_name: ml9_team_project
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/app
+    environment:
+      - JUPYTER_TOKEN=ml9
+    tty: true
