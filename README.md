@@ -1,10 +1,16 @@
+---
+title: "ML-9 Team Project - Stroke Prediction Using Machine Learning"
+author: "<Our Names>"
+bibliography: references.bib
+---
+
 # ML-9 Team Project
 
 Stroke prediction dataset is selected (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
 
 # Purpose & Overview
 
-Stroke, a leading cause of death and disability worldwide, places a significant burden on healthcare systems. In fact, yearly stroke-related health care costs in Ontario, Canada were estimated to be up to $40,000 as of 2018 [1] which has likely only increased since then. Early prediction and intervention are therefore crucial to reducing mortality, improving patient outcome and reducing the costs on the health care system. Maching learning approaches offer promising tools for enhancing stroke prediction by analyzing vast datasets to identify patterns and risk factors that traditional methods may overlook.
+Stroke, a leading cause of death and disability worldwide, places a significant burden on healthcare systems. In fact, yearly stroke-related health care costs in Ontario, Canada were estimated to be up to $40,000 as of 2018 [1] which has likely only increased since then. Early prediction and intervention are therefore crucial to reducing mortality, improving patient outcome and reducing the costs on the health care system. Machine learning approaches offer promising tools for enhancing stroke prediction by analyzing vast datasets to identify patterns and risk factors that traditional methods may overlook.
 
 This project aims to develop a predictive model for stroke risk using demographic, health, and lifestyle data. By analyzing patterns in patient profiles, we seek to identify key indicators that contribute to stroke incidence and build a tool that can assist healthcare providers in early intervention and resource prioritization.
 
@@ -131,3 +137,42 @@ The occurance of false stroke overwhelms the stroke occurence in this dataset by
 [1] Vyas, M., Fang, J., de Oliveria, C., et al. Attributable Costs of Stroke in Ontario, Canada and Their Variation by Stroke Type and Social Determinants of Health. Stroke 2023, 54, 2824.
 [2] Vu, T., Kokubo, Y., Inoue, M., et al. Machine Learning Approaches for Stroke Risk Prediction: Findings from the Suita Study. J Cardiovasc Dev Dis 2024, 11, 207. https://doi.org/10.3390/jcdd11070207
 [3] Moulaei, K., Afshari, L., Moulaei, R. et al. Explainable artificial intelligence for stroke prediction through comparison of deep learning and machine learning models. Sci Rep 2024, 14, 31392. https://doi.org/10.1038/s41598-024-82931-5
+
+## Docker (reproducible container)
+
+This repository now includes a `Dockerfile` and a `docker-compose.yml` to run the project inside a reproducible container (Jupyter Lab is the default entrypoint).
+
+Files added:
+
+- `Dockerfile` - builds a Python 3.11-based image, installs requirements from `requirements.txt`, copies the repo and starts Jupyter Lab on port 8888.
+- `.dockerignore` - prevents local environment, data and build artifacts from being copied into the image.
+- `docker-compose.yml` - convenience compose file to build and run the container with the current directory mounted.
+
+Quick start (macOS / zsh):
+
+1) Build the image locally:
+
+```zsh
+docker build -t ml9-team-project:latest .
+```
+
+2) Run with docker-compose (recommended for development because it mounts the repo into the container):
+
+```zsh
+docker-compose up --build
+```
+
+3) In your browser, open Jupyter Lab at:
+
+```
+http://localhost:8888
+```
+
+The container sets a default Jupyter token via the `JUPYTER_TOKEN` environment variable (default `ml9`). When using `docker-compose` the token is set in the compose file; change it there or set a new token with `-e JUPYTER_TOKEN=yourtoken` when running.
+
+Notes and recommendations:
+
+- The Docker image installs the exact packages listed in `requirements.txt`. If you add or remove Python packages, update `requirements.txt` and rebuild the image.
+- Large/compiled packages (torch, tensorflow) can make the image big; for production or CI consider a multi-stage build or a trimmed requirements set for specific tasks.
+- For non-interactive reproducible runs (training scripts, tests) consider adding a `CMD` or `ENTRYPOINT` variation that runs a script (e.g., `python -m experiments.train`) instead of Jupyter Lab.
+
