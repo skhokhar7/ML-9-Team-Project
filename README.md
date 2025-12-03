@@ -78,7 +78,7 @@ This bar plot shows the distribution of the target variable 'Stroke' across the 
 ![1763936672475](image/README/1763936672475.png)
 
 * Comparing stroke rates between gender:
-  It is observed that the occurence of stroke in females slightly higher than males - 56.6% for females and 43.4% for males.
+  It is observed that the occurence of stroke in females is higher than males - 56.6% for females and 43.4% for males.
 
 ![1763936752770](image/README/1763936752770.png)
 
