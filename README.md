@@ -60,9 +60,9 @@ Our dataset consists of 11 variables for 5,110 patients, including the variable 
 
 * Age: age of patient
 * Gender: gender of patient
-* Hypertension: whether the patient has a hypertension
+* Hypertension: whether the patient has a hypertension condition
 * Heart Disease: whether the patient has heart disease
-* Ever Married: whether the patient is married
+* Ever Married: whether the patient was ever married
 * Work Type: the type of employment the patient has
 * Residence Type: the type of area where the patient resides
 * Average Glucose Level: the patient's average glucose level
