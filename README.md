@@ -97,7 +97,7 @@ This bar plot shows the distribution of the target variable 'Stroke' across the 
 ![1763936886340](image/README/1763936886340.png)
 
 * Proportion of stroke by work_type:
-  13.3% stroke patients are in govt. job, 26.1% are self-employed, 59.8% do private business, and 0.8% are children.
+  13.3% stroke patients are in govt. jobs, 26.1% are self-employed, 59.8% do private business, and 0.8% are children.
 
 ![1763936971463](image/README/1763936971463.png)
 
