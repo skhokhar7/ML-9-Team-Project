@@ -35,8 +35,8 @@ This project addresses that gap by:
 
 ### Secondary Stakeholders
 
-- **Researchers in medical ML**
-- **Healthcare systems**
+- **Researchers in Medical ML Field**
+- **Healthcare Systems**
 
 ---
 
