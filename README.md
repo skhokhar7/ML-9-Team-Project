@@ -133,7 +133,7 @@ This bar plot shows the distribution of the target variable 'Stroke' across the 
 
 ![1763937562112](image/README/1763937562112.png)
 
-* BMI Distribution by Stroke Risk.
+* BMI Distribution by Stroke Risk. There is a clear correlation between BMI and Stroke Risk.
 
 ![1763937632123](image/README/1763937632123.png)
 
