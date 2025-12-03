@@ -121,15 +121,15 @@ This bar plot shows the distribution of the target variable 'Stroke' across the 
 
 ![1763937232407](image/README/1763937232407.png)
 
-* Hypertension Distribution by Stroke Risk. Hypertension does contribute to a higher risk of Strok.
+* Hypertension Distribution by Stroke Risk. Hypertension does contribute to a higher risk of Stroke.
 
 ![1763937449552](image/README/1763937449552.png)
 
-* Heart Disease Distribution by Stroke Risk.
+* Heart Disease Distribution by Stroke Risk. Heart Disease also increases risk of Stroke.
 
 ![1763937493495](image/README/1763937493495.png)
 
-* Average Glucose Level Distribution by Stroke Risk.
+* Average Glucose Level Distribution by Stroke Risk. High Average Glucose Level also contributes to a higher Stroke risk.
 
 ![1763937562112](image/README/1763937562112.png)
 
