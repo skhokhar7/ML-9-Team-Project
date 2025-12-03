@@ -317,7 +317,7 @@ This dataset and approach have several limitations:
 ### Clone
 
 ```
-git clone https://github.com/ML-9/ML-9-Team-Project
+git clone https://github.com/skhokhar7/ML-9-Team-Project
 cd ML-9-Team-Project
 ```
 
