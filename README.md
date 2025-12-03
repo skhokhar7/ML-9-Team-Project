@@ -121,7 +121,7 @@ This bar plot shows the distribution of the target variable 'Stroke' across the 
 
 ![1763937232407](image/README/1763937232407.png)
 
-* Hypertension Distribution by Stroke Risk.
+* Hypertension Distribution by Stroke Risk. Hypertension does contribute to a higher risk of Strok.
 
 ![1763937449552](image/README/1763937449552.png)
 
