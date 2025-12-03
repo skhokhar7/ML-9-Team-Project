@@ -30,7 +30,7 @@ This project addresses that gap by:
 ### Primary Stakeholders
 
 - **Healthcare providers:**  Support clinical decision-making by identifying high-risk patients.
-- **Policy Makers & Public Health Agencies:**  Inform resource allocation and preventive strategies.
+- **Policy Makers & Public Health Agencies:**  Informed resource allocation and preventive strategies.
 - **Patients:**  Particularly those with cardiovascular disease risk factors.
 
 ### Secondary Stakeholders
