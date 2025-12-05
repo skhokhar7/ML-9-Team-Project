@@ -369,12 +369,12 @@ Open and run the Jupyter notebooks in the `process/` directories. Specifically, 
 
 ---
 
-# Credits and links to personal videos
+# Credits
 
-* [Andrew Harris](https://github.com/skhokhar7/ML-9-Team-Project/blob/main/VideoSubmissions/andrew_video.md)
-* [Christina Lamparter](https://github.com/skhokhar7/ML-9-Team-Project/blob/main/VideoSubmissions/Christina_Reflection.pptx)
-* [Rahele Mosleh](https://github.com/skhokhar7/ML-9-Team-Project/blob/main/VideoSubmissions/Rahele_Videos.mp4)
-* [Shahid Khokhar](https://github.com/skhokhar7/ML-9-Team-Project/blob/main/VideoSubmissions/Shahid-Video.mp4)
+* Andrew Harris
+* Christina Lamparter
+* Rahele Mosleh
+* Shahid Khokhar
 
 ---
 
